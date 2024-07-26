@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <!--tags são feitas para colocar elementos específicos -->
+    <head> 
+        <meta charset="utf-8"> 
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">    
+        <title>Invasão Espacial</title>
+        <link rel="shortcut icon" type="image/png" href="nave.png">
+        <link rel="stylesheet" type="text/css" href="style.css">
+
+    </head>
+
+    <body>
+        <!--divs são feitas para colocar o que eu quiser (para organização) --> 
+        <div id="cenario"> 
+            <div id="menu">
+                <div id="vida">Vida: 100</div>
+                <div id="pontos">Pontuação: 0</div>
+            </div>
+            <div id="nave"></div>
+            <button type="button" id="iniciar" onclick="iniciarJogo()">Iniciar</button>
+        </div>
+    </body>
+
+    <script src="main.js" defer> </script>
+</html>
+
+<!--onclick="iniciarJogo()": Este é um atributo de evento que define 
+    uma função JavaScript a ser executada quando o botão é clicado.-->
